@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #151925;
+  color: #fff;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  
+}
+
+.FrontName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #ffff;
+  margin-left: 30px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+nav ul a{
+  text-decoration: none;
+  color:#fff;
+
+}
+
+nav a:hover {
+  color: #00e5ff;
+}
+
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.content span {
+  color: #00e5ff;
+  font-weight: bold;
+}
+
+.content p {
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+
+.socials {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;   
+
+}
+
+
+.image img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.about-img img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px cyan;
+  margin-right: 120px;
+  
+}
+
+.about-info {
+  max-width: 400px;
+}
+
+
+.about{
+    background-color: #323846;
+    width: 100%;
+    height: 420px;
+
+}
+.box {
+  color: #959595;
+  
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.about h2{
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 540px;
+    margin-left: 690px;
+}
+
+.StoreLogo{
+  display:flex;
+  border: 5px solid #00e5ff;
+  
+}
+   
+
+.StoreLogo img{
+  display: flex;
+
+  left: 38.26%;
+  right: 55%;
+  top: 76px;
+  height: 48px;
+  width: 48px;
+}
+
+.BIRlogo{
+  display:flex;
+  border: 3px solid #00e5ff;
+}
+.ShopeeLogo{
+  display:flex;
+  justify-content: center;
+  border: 3px solid #00e5ff;
+}
+
+.ShopeeLogo img{
+  display: flex;
+
+  left: 38.26%;
+  right: 55%;
+  top: 30px;
+  height: 48px;
+  width: 70px;
+}
+.BIRlogo img{
+  display: flex;
+
+  left: 38.26%;
+  right: 55%;
+  top: 79px;
+  height: 48px;
+  width: 48px;
+
+}
+.Grad h3{
+  color: #00e5ff;
+  font-size: 13px;
+  padding-left: 160px;
+}
+.education{
+  display: flex;
+  justify-content: center;
+
+}
+
+.education img{
+  display: flex;
+  margin-right: 15px;
+  height: 48px;
+  width: 70px;
+}
+.Elem{
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-right: 90px;
+  white-space: nowrap;
+  margin-top: 13px;
+ 
+  
+}
+
+
+.highschool{
+  display: flex;
+}
+.highschool img{
+  display: flex;
+  height: 45px;
+  width: 60px;
+  margin-left: 10px;
+  margin-top: 8px;
+
+}
+.highsch{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 13px;
+
+}
+
+span {
+  color: cyan;
+}
+
+
+.services {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.services span {
+  color: cyan;
+}
+
+.services a{
+  text-align: none;
+  margin-right: 1050px;
+
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.PCbuild img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+
+
+}
+.BPC h3{
+  margin-bottom: 20px;
+}
+.DM-icon img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.digitalM h3{
+  margin-bottom: 20px;
+
+}
+
+.webD-icon img{
+  width: 50px;
+  height: 50px;
+
+}
+.card h3{
+  margin-bottom: 20px;
+
+
+}
+.webFont h3{
+  margin-top: 35px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 270px;
+  transition: 0.3s;
+  height: 300px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px cyan;
+}
+
+.achievements{
+  background-color: #323846;
+    width: 100%;
+    height: 500px;
+
+}
+.section-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 13px;
+  padding-top: 40px;
+
+
+}
+.achievement-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+
+}
+.web img{
+  margin-left: 45px;
+  height: 180px;
+  width: 400px;
+}
+.web{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.web p{
+  margin-left: 25px;
+  flex-wrap: wrap;
+
+}
+
+.market{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.market img{
+  margin-left: 60px;
+  height: 180px;
+  width: 400px;
+
+}
+.back-btn{
+    display: inline-block;
+    background: #00e5ff;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    scroll-behavior: smooth;
+   
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+.title span{
+    color: #00e5ff;
+}
+
+.contact-section{
+    margin-left: 50px;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-left: 70px;
+}
+
+.contact-item img{
+    width: 65px;
+    margin-right: 20px;
+}
+
+.contact-item p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+@media(max-width: 768px){
+  nav{
+    flex-direction: column;
+  }
+  .main{
+    flex-direction: column;
+  }
+  
+
+}
+
